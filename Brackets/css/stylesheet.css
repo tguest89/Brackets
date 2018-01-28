@@ -1,0 +1,399 @@
+﻿/***********************************
+              IMPORTS
+************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+/***********************************
+                GENERAL
+************************************/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Muli", sans-serif;
+}
+
+/***********************************
+               Header
+************************************/
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 20px 0 0 0;
+}
+
+
+/***********************************
+               Navbar
+************************************/
+
+nav {
+    text-align: right;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    /*display: none;*/
+}
+
+#nav_frame {
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0,0,0, .5);
+}
+
+#nav_img {
+    padding-left: 29px;
+    padding-top: 4px;
+    float: left;
+    display: inline-block;
+    height: 57px;
+}
+
+.menu {
+    width: 120px;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.nav_hover {
+    color: #75ccff;
+}
+
+.nav_selected {
+    color: #75ccff;
+}
+
+a.menu:active {
+   
+}
+
+nav a:visited {
+
+}
+
+/********************************
+            Sections
+********************************/
+
+.main {
+    width: 100%;
+    padding-top: 41px;
+    background: rgba(0,0,0, .2);
+}
+
+.section {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.sector_title {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 80px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    color: rgba(0,0,0, .8);
+}
+
+#service_title {
+
+}
+
+.row {
+    padding: 20px;
+}
+
+.row-element {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.row-element-heading {
+    text-transform: uppercase;
+}
+
+#about_title {
+
+}
+
+#contact_title {
+
+}
+
+.sector_title_divider {
+    border: 3px solid rgba(117,204,255, .7);
+    border-radius: 50px;
+    opacity: 0.6;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.sector_subtitle {
+    width: 60%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(0,0,0, .5);
+    padding-top: 60px;
+}
+
+.sector_text {
+    width: 60%;
+    margin: 0 auto;
+    color: rgba(0,0,0, .4);
+}
+
+#illustration_img {
+
+    width: 100%;
+    height: 500px;
+    background: black;
+    background-image: url("/img/section_splitter1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+
+}
+
+
+/***********************************
+               Footer
+************************************/
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #23282b;
+    color: #d6d6d6;
+}
+
+/***********************************
+           Page: Landing page
+************************************/
+.landing_page {
+    max-width: 100%;
+    height: 900px;
+    text-align: center;
+    background: linear-gradient( #8797b0, #fff);
+}
+
+.left-side {
+    float: left;
+    width: 35%;
+    height: 100%;
+    display: none;
+}
+
+#logo_img {
+    margin-top: 230px;
+    float: right;
+}
+
+.right-side {
+    float: right;
+    width: 65%;
+    height: 100%;
+    display: none;
+}
+
+#comp-name {
+    font-size: 180px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: -25px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: default;
+}
+
+.divider {
+    border: 2px solid white;
+    border-radius: 50%;
+    opacity: 0.6;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#under_title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 15px;
+    cursor: default;
+    color: #fff;
+}
+
+.landing_page_arrow {
+    max-width: 100%;
+    height: 50px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.page_arrow {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border-bottom: 4px solid #546783;
+    border-right: 4px solid #546783;
+    display: inline-block;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/********************************
+        PAGE: Tjenester
+********************************/
+
+
+
+
+/********************************
+        SECTION: Om
+********************************/
+
+#about_brackets {
+    
+}
+
+.horizontal_elements {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: #30363a;
+    color: #d6d6d6;
+}
+
+.hexagon {
+    display: inline-block;
+    margin-top: 29px;
+    margin-right: 32px;
+    margin-left: 32px;
+    width: 223px;
+    background-color: #30363a;
+    color: #d6d6d6;
+}
+
+/*Top of hex*/
+#about_left_top, #about_mid_top, #about_right_top {
+    width: 0px;
+    margin: 0 auto;
+    border-bottom: 60px solid black;
+    border-right: 104px solid transparent;
+    border-left: 104px solid transparent;
+    display: block;
+}
+
+/*Mid of hex*/
+#about_left_mid {
+    width: 208px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+    background-color: palevioletred;
+}
+
+#about_mid_mid {
+    width: 208px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+    background-color: cornflowerblue;
+}
+
+#about_right_mid {
+    width: 208px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+    background-color: darkseagreen;
+}
+
+/*Bottom of hex*/
+#about_left_bottom, #about_mid_bottom, #about_right_bottom {
+    width: 0px;
+    margin: 0 auto;
+    border-top: 60px solid black;
+    border-right: 104px solid transparent;
+    border-left: 104px solid transparent;
+    display: block;
+}
+
+#about_left_top, #about_left_mid, #about_left_bottom {
+    border-bottom-color: palevioletred;
+    border-top-color: palevioletred;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#about_mid_top, #about_mid_mid, #about_mid_bottom {
+    border-bottom-color: cornflowerblue;
+    border-top-color: cornflowerblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#about_right_top, #about_right_mid, #about_right_bottom {
+    border-bottom-color: darkseagreen;
+    border-top-color: darkseagreen;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.profile {
+    margin: 0 auto;
+}
+
+#about_me {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #30363a;
+    color: #d6d6d6;
+    overflow: hidden;
+}
+
+#profile_photo {
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-top: -5px;
+    margin-left: 75px;
+}
+
+/*#profile_text {
+    width: 60%;
+    margin: 30px auto;
+}*/
+
+
+/********************************
+        PAGE: Kontakt
+********************************/
